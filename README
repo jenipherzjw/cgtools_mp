@@ -1,16 +1,18 @@
 CGTools-MP
-===========================================================================================================================
-CGTools-MP is an ESPResSo-compatible software for implementing simulations of lipid membranes interacting with peptides 
-or proteins using the systematically coarse-grained solvent-free model for quantitative phospholipid bilayer. 
+=============================================================================================
+CGTools-MP is an ESPResSo-compatible software for implementing simulations of lipid membranes
+interacting with peptides or proteins using the systematically coarse-grained solvent-free 
+model for quantitative phospholipid bilayer. 
 
 License description
-See the [Creative Commons Non-Commercial License 3.0] (https://creativecommons.org/licenses/by-nc/3.0/us/) for more details.
+See the [Creative Commons Non-Commercial License 3.0] 
+(https://creativecommons.org/licenses/by-nc/3.0/us/) for more details.
 
 
 PLEASE CITE US!
-===========================================================================================================================
-If you use CGTools-MP and obtain scientific results that you publish, we would ask you to acknowledge the usage of 
-CGTools-MP by referencing
+=============================================================================================
+If you use CGTools-MP and obtain scientific results that you publish, we would ask you to 
+acknowledge the usage of CGTools-MP by referencing
 
 [1] Z.-J. Wang, M. Deserno. Systematic implicit solvent coarse-graining
 of bilayer membranes: lipid and phase transferability of the force field.
@@ -22,7 +24,7 @@ The Journal of chemical physics, 2014, 140(11): 115101.
 
 
 Quick start
-===========================================================================================================================
+=============================================================================================
 CGTools-MP will *not* run unless a configuration file is specified in argument.
 The main script should be parsed inside Espresso : 
 
@@ -55,7 +57,7 @@ files inside.
 The 'configs/' folder contains several configuration files that are ready to be run.
 
 General information
-===========================================================================================================================
+=============================================================================================
 CGTools-MP was developed by Zunjing Wang in 2008-2014
 Portal: http://www.wiomax.com/cgtoolsmp
 E-MAIL: info@wiomax.com

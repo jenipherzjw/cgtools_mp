@@ -1,0 +1,11 @@
+#!/bin/tcsh -f
+alias MATH 'set \!:1 = `echo "\!:3-$" | bc -l`'
+
+set nsys = 2 
+set isys = 2 
+while ($isys <= $nsys)
+     cp ./popc72walp_m1.tcl ./popc72walp_m1t${isys}.tcl
+
+     MATH isys = $isys + 1
+end
+

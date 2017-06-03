@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Author: Zunjing Wang  2010 - 2014
+
+~/Espresso.pepmem/obj-Core-pc-linux/Espresso_bin cgtoolsmain.tcl configs/bilayer72_walp.tcl > outp &

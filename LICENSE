@@ -1,0 +1,19 @@
+CGTools-MP 
+
+GTools-MP is a free softwarer to simulate interactions between lipid membranes and proteins with a systematic solvent-free coarse-grained model; 
+You can redistribute it and/or modify it under the terms of the Creative Commons Non-Commercial License 3.0 (https://creativecommons.org/licenses/by-nc/3.0/us/).
+
+------------------------------------------------------------------------------------------------------------------
+If you use CGTools-MP and obtain scientific results that you publish, we would ask you to acknowledge the usage of 
+CGTools-MP by referencing
+[1] Z.-J. Wang, M. Deserno. Systematic implicit solvent coarse-graining
+of bilayer membranes: lipid and phase transferability of the force field.
+New Journal of Physics, 2010, 12(9): 095004.
+[2] T. Bereau, Z.-J. Wang, M. Deserno. More than the sum of its parts:
+Coarse-grained peptide-lipid interactions from a simple cross-parametrization.
+The Journal of chemical physics, 2014, 140(11): 115101.
+-----------------------------------------------------------------------------------------------------------------
+
+Author: Zunjing Wang
+Email:  info@wiomax.com
+Portal: http://www.wiomax.com/cgtoolsmp/

@@ -1,0 +1,11 @@
+#!/bin/tcsh -f
+# Author: Zunjing Wang  2010 - 2014
+alias MATH 'set \!:1 = `echo "\!:3-$" | bc -l`'
+
+set nsys = 15 
+set isys = 1 
+while ($isys <= $nsys)
+     mv ./bilayer72_walp1m${isys} ./bilayer72_walp1m${isys}.run0
+     MATH isys = $isys + 1
+end
+

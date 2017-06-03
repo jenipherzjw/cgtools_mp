@@ -1,0 +1,6 @@
+# Zunjing Wang 2010-2014
+
+generate_peptide_crd/walp23_s4.init.crd  : single peptide 4th 
+walp23_single/walp23_s4.init.crd         : single peptide 4th
+initial_crd.run0/walp23_4.init.crd       : 4 peptides
+initial_crd.run0      : initial crd files of both bilayer, one lipid, and one walp23 for "*.run0"

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Author: Zunjing Wang  2010 - 2014
+
+if [ -z "$1" ]; then
+    echo "Missing argument: # of procs"
+    exit
+fi
+
+mpirun -np $1 Espresso_bin cgtoolsmain.tcl -n $1 configs/bilayer72_walp.tcl

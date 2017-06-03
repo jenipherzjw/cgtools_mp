@@ -1,0 +1,18 @@
+#!/bin/tcsh -f
+alias MATH 'set \!:1 = `echo "\!:3-$" | bc -l`'
+
+set nsys = 15 
+set isys = 1 
+while ($isys <= $nsys)
+     #mv ./bilayer_72.init.run1.m${isys}.crd ./bilayerwalp.init.run1.m${isys}.crd
+     #head -n 1157 ./bilayerwalp.init.run1.m${isys}.crd > ./bilayer_72.init.run1.m${isys}.crd
+     #tail -n 125 ./bilayerwalp.init.run1.m${isys}.crd > ./walp23.spanning.run1.m${isys}.crd
+     cp ./walp23.spanning.run1.m${isys}.crd ./walp23.spanning.run1.m${isys}.crd.old
+     head -n 120 ./walp23.spanning.run1.m${isys}.crd > ./walp23.spanning.run1.m${isys}.crd.test1
+     tail -n 115 ./walp23.spanning.run1.m${isys}.crd.test1 > ./walp23.spanning.run1.m${isys}.crd
+     rm ./walp23.spanning.run1.m${isys}.crd.test1
+     rm ./walp23.spanning.run1.m${isys}.crd.test2
+
+     MATH isys = $isys + 1
+end
+

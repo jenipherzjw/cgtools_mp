@@ -1,0 +1,16 @@
+#!/bin/bash
+
+######################### how to use, example  ###############################♯#
+#./strip_down_HN.awk ALA15_sim.vmd0070.pdb > ALA15_sim.vmd0070_noH.pdb
+
+#./add_peptide.awk ALA15_sim.vmd0070_noH.pdb 25 25 115 1 1 > walp23.init1.crd
+##ARGV[1]: PDB input file name
+##ARGV[2]: dx 
+##ARGV[3]: dy 
+##ARGV[4]: dz 
+##ARGV[5]: number_index of first particle 
+##ARGV[6]: number_index of molecule
+#################################################################################
+
+./add_peptide.awk ./walp23.spanning.init.pdb 0. -13. 0. 1 1 > walp23.spanning.m1.crd
+./add_peptide.awk ./walp23.spanning.init.pdb 0. -13. 5. 1 1 > walp23.spanning.m2.crd
